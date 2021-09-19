@@ -1,5 +1,5 @@
 # spicetify-highres
-Spicetify extension for high res album art.
+Spicetify extension for high res album art from the iTunes search API.
 
 To install, just download highres.js and put it in your spicetify extensions folder. 
 
