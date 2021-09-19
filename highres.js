@@ -84,6 +84,15 @@
     });
 }
 
+    window.onload = function() {
+        setTimeout(() => {  
+            if (widthVar != ''){
+                var r = document.querySelector(':root');
+                r.style.setProperty('--nav-bar-width', widthVar);
+            }
+        }, 500);
+    }
+     
     
     Spicetify.Player.addEventListener("songchange", () => {
         const data = Spicetify.Player.data || Spicetify.Queue;
