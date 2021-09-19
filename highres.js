@@ -5,12 +5,12 @@
     //If you want to leave as default, set to empty string - ''.
     var widthVar = '800px'
     var pathToAPI = '@@@@@'; // Replace with your link to the api.php file. Must be hosted on a webserver with PHP.
-    	
+    
     var script = document.createElement('script');
     script.src = 'https://code.jquery.com/jquery-3.4.1.min.js';
     script.type = 'text/javascript';
     document.getElementsByTagName('head')[0].appendChild(script);
-    
+
     function performSearch(artist, album) {
 
     var query = artist + ' ' + album;
@@ -83,6 +83,7 @@
         });
     });
 }
+
     
     Spicetify.Player.addEventListener("songchange", () => {
         const data = Spicetify.Player.data || Spicetify.Queue;
