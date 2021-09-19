@@ -18,4 +18,4 @@ Context menu is janky. Spicetify documentation is practically non-existant so un
 
 Right clicking anything *but* the currently playing song will show you a "Get Album Art URL" - This is the NOW PLAYING art, not the art of the thing you clicked on.
 
-Sometimes it won't pick up the correct art, there's nothing I can do about this except possible tweak the terms used in the search. Right now it searchest `artist album` but if anyone has a suggestion of how to improve this I'm interested.
+Sometimes it won't pick up the correct art, there's nothing I can do about this except possible tweak the terms used in the search. Right now it searches `artist album` but if anyone has a suggestion of how to improve this I'm interested.
