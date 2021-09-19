@@ -1,5 +1,11 @@
 (function HighRes() {
     //Made by @dubu#2080
+    
+    //Set custom art width here - must be a string with "px" at the end.
+    //If you want to leave as default, set to empty string - ''.
+    var widthVar = '800px'
+    var pathToAPI = '@@@@@'; // Replace with your link to the api.php file. Must be hosted on a webserver with PHP.
+    	
     var script = document.createElement('script');
     script.src = 'https://code.jquery.com/jquery-3.4.1.min.js';
     script.type = 'text/javascript';
@@ -18,7 +24,7 @@
     $.ajax({
         type: "GET",
         crossDomain: true,
-        url: '@@@@@@@', // Replace with your link to the api.php file. Must be hosted on a webserver with PHP.
+        url: pathToAPI, 
         data: {query: query, entity: entity, country: country, type: 'request'},
         dataType: 'json'
     }).done(function(data) {
@@ -97,9 +103,10 @@
         
         }, 100);
         
-        var r = document.querySelector(':root');
-        r.style.setProperty('--nav-bar-width', '800px');
-        
+        if (widthVar != ''){
+            var r = document.querySelector(':root');
+            r.style.setProperty('--nav-bar-width', widthVar);
+        }
     });
     
     
