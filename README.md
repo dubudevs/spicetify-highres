@@ -14,6 +14,6 @@ Enable highres.js via poweshell or edit the config file and run `spicetify apply
 
 # Bugs
 
-Context menu is janky and the art doesn't resize on launch. Spicetify documentation is practically non-existant so until someone can help with some spicetify specific info it will stay like this. 
+Context menu is janky. Spicetify documentation is practically non-existant so until someone can help with some spicetify specific info it will stay like this. 
 
 Right clicking anything *but* the currently playing song will show you a "Get Album Art URL" - This is the NOW PLAYING art, not the art of the thing you clicked on.
